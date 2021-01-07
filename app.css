@@ -4,6 +4,7 @@ body {
 }
 .content {
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 .blurb h2{
     color:#EA1C2C;
@@ -42,6 +43,11 @@ body {
 #headingGroup h1{
     font-weight:100;
     font-size:4rem;
+}
+
+.navbar.scrolled {
+    background-color: #dec0de ;
+    transition: background 200ms;
 }
 
 @media(max-width:1200px) {
